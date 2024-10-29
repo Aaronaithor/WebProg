@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'NorseBold';
+    src: url('Norse-Bold.otf') format('truetype');
+}
+
+body{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img{
+    height: 100vh;
+}
+
+p{
+    margin-bottom: 0px;   
+}
+
+input{
+    border-width: 1px;
+    background-color: rgb(23,23,23);
+    color: rgb(187, 172, 86);
+}
+
+input:focus{
+    border-color: rgb(52, 52, 99);
+    border-width: 1px;
+}
+
+input:invalid{
+    border-color: rgb(91, 44, 44);
+    border-width: 1px;
+}
+
+.left-img{
+    height: 100vh;
+}
+
+.watermark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'NorseBold';
+    font-size: 500%;
+    color: rgb(187, 172, 86);
+    background-color: rgba(81, 73, 31, 0.5);
+    position: absolute;
+    top: 20%;
+    min-width: 32.3%;
+    min-height: 18%;
+}
+
+#odin-head{
+    max-height: 15vh;
+    margin-right: 2%;
+}
+
+
+.main{
+    margin: 0px;
+    display: flex;
+    flex-direction: column; 
+    height: 100vh;
+    width: 75vw;
+}
+
+.header{
+    margin : 0px;
+    height: 33vh;
+    background-color: rgb(32, 32, 32);
+}
+
+.txt{
+    padding-top: 8%;
+    padding-bottom: 6%;
+    font-size: large;
+    color: rgb(187, 172, 86);
+}
+
+.headtext{
+    margin-top: 0px;
+    max-width: 35vw;
+    padding-left: 3%;
+}
+
+.h3{
+    margin-top: 2.5%;
+}
+
+.signup{
+    height: 34vh;
+    background-color: rgb(23, 23, 23);
+    color: rgb(187, 172, 86);
+}
+
+.title{
+    padding: 3%;
+    font-size:x-large;
+}
+
+.fill-in{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: x-small;
+    padding-bottom: 6%;
+}
+
+.su-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.su-right{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40%;
+}
+
+#pardecosas{
+    display: flex;
+    flex-direction: column;
+}
+
+#text-above-input{
+    color: rgb(199, 193, 155);
+}
+
+.bottom{
+    height: 33vh;
+    background-color: rgb(32,32,32);
+    padding: 3%;
+}
+
+button{
+    height: 5vh;
+    width: 10vw;
+    background-color: rgb(23,23,23);
+    color: rgb(187, 172, 86);
+    border-color: rgb(187, 172, 86);
+    border-radius: 5%;
+}
+
+#plaintext{
+    color: rgb(187, 172, 86);
+}
+
+#link{
+    color: rgb(81, 73, 31)
+}

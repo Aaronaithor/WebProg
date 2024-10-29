@@ -1,0 +1,190 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/*--------------------------HEADER-----------------------------------*/
+.header{
+    background-color:rgb(22, 38, 63);
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-text{
+    margin-inline-start: 11vw;
+    font-weight: bolder;
+    font-size: larger;
+}
+/*-------------------------CONTENT-----------------------------------*/
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex:1;
+}
+/*-------------------------UPPER-CONTENT-----------------------------*/
+.upper-content{
+    background-color:rgb(22, 38, 63);
+    display: flex;
+    color: white;
+    padding: 5%;
+}
+
+.uc-not-placeholder{
+    margin-inline-start: 6vw;
+    padding-right:50px;
+}
+
+#uc-title{
+    font-size: 300%;
+    font-weight: bolder;
+}
+
+#uc-body{
+    font-size: smaller;
+    color: rgb(214, 216, 217);
+}
+
+button{
+    background-color: rgb(53, 118, 250);
+    color:white;
+    height: 5vh;
+    width: 7vw;
+    border-radius: 10px;
+    border-style: none;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: rgb(38, 38, 161);
+}
+
+button:active{
+    background-color: rgb(25, 25, 100);
+}
+
+.uc-placeholder{
+    background-color: gray;
+    margin-inline-end: 11vw;
+    min-height: 30vh;
+    min-width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*---------------------------MID-CONTENT-----------------------------*/
+.mid-content{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#mc-title{
+    text-align: center;
+    color:rgb(22, 38, 63);
+    font-size:200%;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+.square-zone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-t{
+    padding: 20px;
+}
+
+.square{
+    min-height: 300px;
+    min-width: auto;
+    border-style: solid;
+    border-color: rgb(53, 118, 250);
+    border-width: 3px;
+    border-radius: 15px;
+}
+/*---------------------------LOW-CONTENT-----------------------------*/
+.low-content{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+#inspire{
+    font-size: xx-large;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+#ins-sign{
+    margin-left: 65vw;
+}
+/*---------------------------SIGN-UP-ZONE----------------------------*/
+.sign-up-zone{
+    background-color: rgb(53, 118, 250);
+    border-style: none;
+    border-radius: 15px;
+    margin-left: 1vw;
+    margin-right: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.su-text{
+    margin-left: 10vw;
+    padding: 2%;
+}
+
+#su-title{
+    font-size: large;
+    font-weight: bold;
+    color:white;
+}
+
+#su-subtext{
+    color:rgb(214, 216, 217);
+}
+
+#su-button{
+    border-style: solid;
+    border-color: white;
+    margin-right: 15vw;
+}
+
+
+/*---------------------------FOOTER----------------------------------*/
+.footer{
+    background-color: rgb(22, 38, 63);
+    color: white;
+    text-align: center;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+/*---------------------------LISTS-----------------------------------*/
+a{
+    text-decoration-line: none;
+    margin:15px;
+    color: white;
+}
+
+ul{
+    margin-inline-end: 15vw;
+    display: flex;
+    list-style-type: none;
+}
+/*---------------------------TEXTS-----------------------------------*/
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

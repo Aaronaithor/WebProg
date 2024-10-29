@@ -1,0 +1,50 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(213, 213, 213);
+}
+
+.container{
+  display: flex;
+  align-content: center;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.title{
+  padding: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 220%;
+}
+
+.board{
+  width: 500px;
+  height: 500px;
+  display: grid;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+#but{
+  height: 4vh;
+  width: 7vw;
+}
+
+.changeSize{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#csb{
+  margin-left: 2%;
+}

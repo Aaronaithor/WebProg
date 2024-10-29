@@ -1,0 +1,7 @@
+div{
+    font-size: 30px;
+    color:white;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}

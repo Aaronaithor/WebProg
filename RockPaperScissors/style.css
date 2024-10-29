@@ -1,0 +1,40 @@
+.Imagenes{
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img{
+    min-height: 30vh;
+    min-width: 30vw;
+}
+
+#piedra{
+    background-image: url(rock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#papel{
+    background-image: url(paper.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#tijera{
+    background-image: url(tijera.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Botones{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button{
+    min-height: 10vh;
+    min-width: 20vw;
+}

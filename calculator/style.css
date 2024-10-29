@@ -1,0 +1,63 @@
+body{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(215, 215, 215);
+}
+
+.container{
+    margin-top: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(89, 86, 86);
+    padding: 0.5%;
+    height: 22vh;
+    width: 7.5vw;
+}
+
+#display{
+    padding: 7%;
+    background-color: white;
+    margin-bottom: 1%;
+    width: 90%;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.number{
+    height: 4vh;
+    width: 2.1vw;
+    background-color: rgb(219, 220, 222);
+}
+
+.operators{
+    display: flex;
+    flex-direction: column;
+}
+
+.operator{
+    background-color: rgb(174, 170, 170);
+    padding-top: 13.5%;
+    padding-bottom: 13.5%;
+}
+
+#equal{
+    background-color: orange;
+}
+
+#AC{
+    background-color: rgb(205, 129, 129);
+}

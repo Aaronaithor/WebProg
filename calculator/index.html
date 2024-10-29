@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="text" id="display">Numbers Here</div>
+        <div class="buttons">
+            <div class="numbers">
+                <button class="number" id="1" onclick="numberOneClicked()">1</button>
+                <button class="number" id="2" onclick="numberTwoClicked()">2</button>
+                <button class="number" id="3" onclick="numberThreeClicked()">3</button>
+                <button class="number" id="4" onclick="numberFourClicked()">4</button>
+                <button class="number" id="5" onclick="numberFiveClicked()">5</button>
+                <button class="number" id="6" onclick="numberSixClicked()">6</button>
+                <button class="number" id="7" onclick="numberSevenClicked()">7</button>
+                <button class="number" id="8" onclick="numberEightClicked()">8</button>
+                <button class="number" id="9" onclick="numberNineClicked()">9</button>
+                <button class="number"id="0" onclick="numberZeroClicked()">0</button>
+                <button class="number" id="." onclick="decimalClicked()">.</button>
+                <button class="number" id="equal" onclick="operate()">=</button>
+            </div>
+            <div class="operators">
+                <button class="operator" id="+" onclick="toAdd()">+</button>
+                <button class="operator" id="-" onclick="toSubstract()">-</button>
+                <button class="operator" id="*" onclick="toMultiply()">*</button>
+                <button class="operator" id="/" onclick="toDivide()">/</button>
+                <button class="operator" id="AC" onclick="ACCLicked()">AC</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
