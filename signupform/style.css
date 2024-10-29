@@ -9,6 +9,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(32,32,32);
 }
 
 img{
@@ -19,20 +20,23 @@ p{
     margin-bottom: 0px;   
 }
 
+label{
+    color: rgb(208, 204, 177);
+}
+
 input{
-    border-width: 1px;
-    background-color: rgb(23,23,23);
+    border: 1px solid rgb(187, 172, 86);
+    background-color: rgb(15, 15, 15);
     color: rgb(187, 172, 86);
+    border-radius: 5px;
 }
 
 input:focus{
-    border-color: rgb(52, 52, 99);
-    border-width: 1px;
+    border: 3px solid rgb(52, 52, 99);
 }
 
 input:invalid{
-    border-color: rgb(91, 44, 44);
-    border-width: 1px;
+    border: 1px solid rgb(91, 44, 44);
 }
 
 .left-img{
@@ -49,7 +53,7 @@ input:invalid{
     background-color: rgba(81, 73, 31, 0.5);
     position: absolute;
     top: 20%;
-    min-width: 32.3%;
+    min-width: 34.3%;
     min-height: 18%;
 }
 
@@ -59,7 +63,7 @@ input:invalid{
 }
 
 
-.main{
+.right{
     margin: 0px;
     display: flex;
     flex-direction: column; 
@@ -70,13 +74,12 @@ input:invalid{
 .header{
     margin : 0px;
     height: 33vh;
-    background-color: rgb(32, 32, 32);
 }
 
 .txt{
-    padding-top: 8%;
+    padding-top: 6.5%;
     padding-bottom: 6%;
-    font-size: large;
+    font-size:medium;
     color: rgb(187, 172, 86);
 }
 
@@ -88,51 +91,53 @@ input:invalid{
 
 .h3{
     margin-top: 2.5%;
+    margin-bottom: 2.5%;
 }
 
 .signup{
     height: 34vh;
     background-color: rgb(23, 23, 23);
     color: rgb(187, 172, 86);
+    box-shadow: 10px 10px 10px rgb(28, 28, 28) ;
+    margin-right: 0.2%;
 }
 
 .title{
-    padding: 3%;
+    padding: 2%;
+    padding-left: 3%;
+    padding-bottom: 0%;
     font-size:x-large;
 }
 
 .fill-in{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     font-size: x-small;
-    padding-bottom: 6%;
+    padding-bottom: 3%;
 }
 
-.su-left{
+.form-divs{
     display: flex;
     flex-direction: column;
+    justify-content: space-between; 
+    margin-right: 25%;
 }
 
-.su-right{
+.form-div{
     display: flex;
     flex-direction: column;
-    margin-right: 40%;
+    padding-top: 7.5%;
 }
 
-#pardecosas{
-    display: flex;
-    flex-direction: column;
+#error{
+    margin-top: 0%;
+    color: rgb(91, 44, 44);
 }
-
-#text-above-input{
-    color: rgb(199, 193, 155);
-}
-
-.bottom{
-    height: 33vh;
-    background-color: rgb(32,32,32);
+.bottom{    
     padding: 3%;
+    padding-top: 3%;
+    padding-bottom: 1.5%;
 }
 
 button{
@@ -141,11 +146,13 @@ button{
     background-color: rgb(23,23,23);
     color: rgb(187, 172, 86);
     border-color: rgb(187, 172, 86);
-    border-radius: 5%;
+    border-radius: 7px;
 }
 
 #plaintext{
-    color: rgb(187, 172, 86);
+    margin-top: 0%;
+    color: rgb(187, 172, 86);   
+    padding-left: 2.99%;
 }
 
 #link{
