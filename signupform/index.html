@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up Form</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>   
 </head>
 <body>
     <div class="left">
@@ -25,7 +26,7 @@
                 <p class="headtext h3">You <i>know</i> you want to.</p>
             </div>
         </div>
-        <form action="" method="get"> 
+        <form onsubmit="return isPasswordEqual();" method="get"> 
             <div class="signup">
                 <div class="title">Let's do this!</div>
                 <div class="fill-in">
@@ -43,7 +44,7 @@
     
                        <div class="form-div">
                            <label for="password">PASSWORD</label>
-                          <input id="pass" type="password" id="password" name="first_name" required>
+                          <input type="password" id="Password" name="password" >
                           <p id="error"></p>
                        </div>
                     </div>
@@ -56,12 +57,13 @@
                         
                         <div class="form-div">
                             <label for="pnumber">PHONE NUMBER</label>
-                            <input type="tel" id="pnumber" name="phone_number">
+                            <input type="tel" pattern="[0-9]" id="pnumber" name="phone_number">
                         </div>
                         
                         <div class="form-div">
                             <label for="confirmPassword">CONFIRM PASSWORD</label>
-                            <input type="password" id="confirmPassword" name="confirm_password" required>
+                            <input type="password" id="confirmPassword" name="confirm_password">
+                            <p id="error"></p>
                         </div>
                     </div>
                 </div>
@@ -77,5 +79,4 @@
         </p>
     </div>
 </body>
-<script src="script.js"></script>
 </html>

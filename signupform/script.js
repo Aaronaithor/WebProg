@@ -1,14 +1,15 @@
-document.addEventListener("DOMContentLoaded",function(){
-    let pass = document.querySelector("#password").value;
-    let pass2 = document.querySelector("#confirmPassword").value;
-    let error = document.querySelector("#error");
+function isPasswordEqual(){
+    let pass = document.getElementById("Password");
+    let pass2 = document.getElementById("confirmPassword");
+    let error = document.getElementById("error");
 
-    if(pass == "" || pass2 == "")
-        error.innerHTML = "*Fields are empty"
-
-    if(pass == pass2){
-        error.innerHTML = "";
+    if(pass.value == pass2.value){
+        return true;
     }else{
-        error.innerHTML = "*Passwords do not match"
+        pass.style = "border: 1px solid rgb(91, 44, 44)";
+        pass2.style = "border: 1px solid rgb(91, 44, 44)";
+        error.innerHTML = "*Passwords do not match";
+        return false;
     }
-})
+}
+
