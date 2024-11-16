@@ -1,0 +1,16 @@
+body{
+    margin: 0%;
+    display: grid;  
+}
+
+.sidebar{
+    background-color: red;
+}
+
+.header{
+    background-color: blue;
+}
+
+.maincontent{
+    background-color: yellow;
+}
