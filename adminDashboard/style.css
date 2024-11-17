@@ -79,19 +79,141 @@ body{
 
 
 .header{
-    background-color: blue;
+    background-color: white;
     min-height: 15vh;
+    display: grid;
+    grid-template-rows: 7.5vh 7.5vh;
 }
+
+.upperheader{
+    display: grid;
+    grid-template-columns: 5vw 31vw 17vw 17vw 17vw;
+    padding-top: 2vh;
+}
+
+#search{
+    padding-left: 3vw;
+}
+
+#searchbar{
+    max-height: 3vh;
+    min-width: 40vw;
+    border-radius: 120px;
+    border-width: 0px;
+    background-color: rgb(225, 225, 225);
+    margin-left: 3%;
+}
+
+#notifications{
+    padding-left: 150%;
+    padding-top: 1%;
+}
+
+#upperavatar{
+    padding-left: 75%;
+    max-height: 4.5vh;
+}
+
+.username{
+    font-family: Roboto;
+    padding-top: 3%;
+    font-weight: bold;
+}
+
+.lowerheader{
+    display: grid;
+    grid-template-columns: 7vw 50vw 30vw;
+}
+
+#loweravatar{
+    max-height: 7vh;
+    padding-left: 3vw;
+}
+
+.hithere{
+    font-family: Roboto;
+    font-size: 65%;
+    font-weight: bold;
+    padding-top: 1.5%;
+}
+
+.bigusername{
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+button{
+    max-width: 7vw;
+    max-height: 4vh;
+    background-color: #0c86be;
+    color: white;
+    border-width: 0px;
+    border-radius: 120px;
+    margin-top: 1.5vh;
+} 
+
+.buttons{
+    display: grid;
+    grid-template-columns: 7vw 7vw 7vw;
+    column-gap: 10px;
+}
+
 
 .maincontent{
     display: grid;
     grid-template-columns: 62.5vw 22.5vw;
-    min-height: 83vh;
-    max-height: 83vh;
+    grid-template-rows: 85vh;  
+    min-height: 85vh;
+    max-height: 85vh;
 }
 
 .mainleft{
-    background-color:   coral;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 100%;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-rows: 0.01vh 1vh;
+}
+
+.titleleft{
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.projects{
+    margin: 0%;
+    padding: 0%;
+    display: grid;
+    grid-template-columns: 31.25vw 31.25vw;
+    grid-template-rows: 27.4vh 27.4vh 27.4vh;
+    row-gap: 0px;
+}
+
+.project{
+    border-left : solid rgb(255, 167, 60);
+    border-width: 10px;
+    margin: 10%;
+    padding: 5%;
+    background-color: white;
+    box-shadow: 5px 5px 5px -2px rgba(153,153,153,1);
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 80%;
+    min-height: 13vh;
+    border-radius: 10px;
+}
+
+#project{
+    font-size: 100%;
+}
+
+#fork{
+    max-width: 3vh;
+}
+
+.projecticons{
+    padding-left: 75%;
 }
 
 .mainright{
@@ -122,7 +244,6 @@ body{
 
 .announcement{
     display: grid;
-    background-color: rgb(22, 60, 60);
     background-color: white;
     max-width: 17.5vw;
     border-radius: 5%;
