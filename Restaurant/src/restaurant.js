@@ -8,6 +8,7 @@ const createRestaurantHomePage = () => {
     image.src = "..\\img\\restaurant.jpg";
     image.height = '300';
     pageContent.appendChild(image);
+
     
     // Create and append headline
     const headline = document.createElement('h1');

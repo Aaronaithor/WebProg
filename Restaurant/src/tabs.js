@@ -4,6 +4,7 @@ import createRestaurantHomePage from "./restaurant";
 
 const createTabs = () => {
     const content = document.querySelector('#content');
+    const tabs = document.createElement('div');
 
     const div1 = document.createElement('div');
     const div2 = document.createElement('div');
