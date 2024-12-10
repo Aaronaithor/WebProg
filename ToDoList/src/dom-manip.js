@@ -5,7 +5,6 @@ let numberOfProjects = 0;
 
 function init(){
     const content = document.querySelector('.content');
-    const displayContent = document.querySelector('.contentDisplay');
 
     const heading = document.createElement('h1');
     heading.textContent = 'To-Do List';
@@ -27,9 +26,6 @@ function init(){
     numberOfProjects++;
     placeholderProject.textContent = project.Title;
     placeholderProject.addEventListener('click', () => {
-        if(displayContent){
-            display.removeChild(displayContent);
-        }
         displayProject(project);
     })
 
@@ -58,9 +54,6 @@ function init(){
 const createNewProject = () => {
     const projectContainer = document.querySelector('.projectContainer');
     const addProjectBtn = document.querySelector('.addProjectBtn');
-    const displayContent = document.querySelector('.contentDisplay');
-    const display = document.querySelector('.projectDisplay');
-
 
     let title = prompt("Please, enter a title");
     let description = prompt("Please, enter a description");
